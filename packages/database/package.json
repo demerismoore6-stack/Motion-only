@@ -1,0 +1,1 @@
+{\n  "name": "@motion-only/database",\n  "version": "0.1.0",\n  "private": true,\n  "scripts": {\n    "db:push": "prisma db push",\n    "db:migrate": "prisma migrate dev",\n    "db:studio": "prisma studio"\n  },\n  "dependencies": {\n    "@prisma/client": "^5.2.0"\n  },\n  "devDependencies": {\n    "prisma": "^5.2.0"\n  }\n}\n
