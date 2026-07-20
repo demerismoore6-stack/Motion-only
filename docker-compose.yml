@@ -1,0 +1,1 @@
+version: '3.9'\nservices:\n  postgres:\n    image: postgres:15-alpine\n    container_name: motion-only-postgres\n    ports:\n      - "5432:5432"\n    environment:\n      POSTGRES_USER: motion\n      POSTGRES_PASSWORD: motion123\n      POSTGRES_DB: motion_only\n    volumes:\n      - postgres_data:/var/lib/postgresql/data\nvolumes:\n  postgres_data:\n
