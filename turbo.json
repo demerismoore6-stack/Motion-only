@@ -1,0 +1,1 @@
+{\n  "$schema": "https://turbo.build/schema.json",\n  "pipeline": {\n    "dev": {\n      "cache": false,\n      "persistent": true\n    },\n    "build": {\n      "outputs": [".next/**", "dist/**"]\n    }\n  }\n}\n
