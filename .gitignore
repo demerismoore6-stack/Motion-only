@@ -1,0 +1,1 @@
+node_modules/\n.pnp\n.env\n.env.local\n.next/\ndist/\nbuild/\n.turbo/\n.DS_Store\n*.log\n
